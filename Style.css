@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(135deg, orange 60%, cyan);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  color: black;
+  font-family: "Roboto", sans-serif, Arial;
+}
+
+.container {
+  width: 300px;
+  min-height: 360px;
+  background-color: lightblue;
+  box-shadow: 3px 3px 15px black;
+}
+
+h2 {
+  text-align: center;
+}
+
+.setting {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings {
+  margin: 5px;
+}
+
+.btn {
+  background-color: rgb(127, 121, 214);
+  color: white;
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  transition: transform 1.5s ease;
+}
+
+.btn:active {
+  transform: scale(0.5);
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+#length {
+  outline: none;
+}
+
+.result-container {
+ background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 50px;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
